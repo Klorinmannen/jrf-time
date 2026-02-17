@@ -1,0 +1,32 @@
+{
+    "name": "klorinmannen/jrf-time",
+    "description": "Time reporting parser library",
+    "homepage": "https://github.com/klorinmannen/jrf-time",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "time",
+        "reporting",
+        "parser"
+    ],
+    "authors": [
+        {
+            "name": "Jonatan Rao-Fransson"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JRF\\": "src/"
+        }
+    },
+    "require": {
+        "klorinmannen/jrf-util": "dev-main"
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/Klorinmannen/jrf-util"
+        }
+    ]
+}
